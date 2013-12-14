@@ -112,6 +112,7 @@
     
     // defines action based on if the player has enough gold. If they do not have enough
     // the purchase is not allowed
+    NSLog(@"A new change");
     if ( self.player1.currentGold < price ){
         [SysAlerts notEnoughGold:self.player1.currentGold forThis:price];
     }else{

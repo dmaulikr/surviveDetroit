@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>96B5C542-4166-4F97-B06C-D79844AEAA4D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SurviveDetroit2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9FE600BE-1C90-4AA3-A1FF-8BCE2D71A508</key>
+		<string>https://github.com/spacedrabbit/surviveDetroit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SurviveDetroit2.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9FE600BE-1C90-4AA3-A1FF-8BCE2D71A508</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/spacedrabbit/surviveDetroit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9FE600BE-1C90-4AA3-A1FF-8BCE2D71A508</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9FE600BE-1C90-4AA3-A1FF-8BCE2D71A508</string>
+			<key>IDESourceControlWCCName</key>
+			<string>surviveDetroit</string>
+		</dict>
+	</array>
+</dict>
+</plist>
