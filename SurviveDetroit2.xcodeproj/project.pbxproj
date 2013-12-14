@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1409CB481855853800482173 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 1409CB471855853800482173 /* Player.m */; };
+		142D9B2E1857032000B66CB7 /* SysAlerts.m in Sources */ = {isa = PBXBuildFile; fileRef = 142D9B2D1857032000B66CB7 /* SysAlerts.m */; };
+		145328D218557C270021F842 /* woodBkgd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145328D118557C270021F842 /* woodBkgd.jpg */; };
+		145328DF185582FE0021F842 /* Creature.m in Sources */ = {isa = PBXBuildFile; fileRef = 145328DE185582FE0021F842 /* Creature.m */; };
+		147E82481858099000F86647 /* 490px-Magnifying_glass_icon.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 147E82471858099000F86647 /* 490px-Magnifying_glass_icon.svg.png */; };
+		1488A57A185C11630007519D /* Container.m in Sources */ = {isa = PBXBuildFile; fileRef = 1488A579185C11630007519D /* Container.m */; };
 		148F5A7618554D0A002B7D47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148F5A7518554D0A002B7D47 /* Foundation.framework */; };
 		148F5A7818554D0A002B7D47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148F5A7718554D0A002B7D47 /* CoreGraphics.framework */; };
 		148F5A7A18554D0A002B7D47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148F5A7918554D0A002B7D47 /* UIKit.framework */; };
@@ -21,6 +27,9 @@
 		148F5A9718554D0B002B7D47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148F5A7918554D0A002B7D47 /* UIKit.framework */; };
 		148F5A9F18554D0B002B7D47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 148F5A9D18554D0B002B7D47 /* InfoPlist.strings */; };
 		148F5AA118554D0B002B7D47 /* SurviveDetroit2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 148F5AA018554D0B002B7D47 /* SurviveDetroit2Tests.m */; };
+		14DE56321855888E005930AD /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE56311855888E005930AD /* Item.m */; };
+		14DE56351855895D005930AD /* Sword.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE56341855895D005930AD /* Sword.m */; };
+		14DE5638185589CB005930AD /* WeaponShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE5637185589CB005930AD /* WeaponShop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1409CB461855853800482173 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		1409CB471855853800482173 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		142D9B2C1857032000B66CB7 /* SysAlerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysAlerts.h; sourceTree = "<group>"; };
+		142D9B2D1857032000B66CB7 /* SysAlerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SysAlerts.m; sourceTree = "<group>"; };
+		145328D118557C270021F842 /* woodBkgd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodBkgd.jpg; sourceTree = "<group>"; };
+		145328DD185582FE0021F842 /* Creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Creature.h; sourceTree = "<group>"; };
+		145328DE185582FE0021F842 /* Creature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Creature.m; sourceTree = "<group>"; };
+		147E82471858099000F86647 /* 490px-Magnifying_glass_icon.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "490px-Magnifying_glass_icon.svg.png"; sourceTree = "<group>"; };
+		1488A578185C11630007519D /* Container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Container.h; sourceTree = "<group>"; };
+		1488A579185C11630007519D /* Container.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Container.m; sourceTree = "<group>"; };
 		148F5A7218554D0A002B7D47 /* SurviveDetroit2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurviveDetroit2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		148F5A7518554D0A002B7D47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		148F5A7718554D0A002B7D47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +72,12 @@
 		148F5A9C18554D0B002B7D47 /* SurviveDetroit2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SurviveDetroit2Tests-Info.plist"; sourceTree = "<group>"; };
 		148F5A9E18554D0B002B7D47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		148F5AA018554D0B002B7D47 /* SurviveDetroit2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SurviveDetroit2Tests.m; sourceTree = "<group>"; };
+		14DE56301855888E005930AD /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		14DE56311855888E005930AD /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		14DE56331855895D005930AD /* Sword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sword.h; sourceTree = "<group>"; };
+		14DE56341855895D005930AD /* Sword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sword.m; sourceTree = "<group>"; };
+		14DE5636185589CB005930AD /* WeaponShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeaponShop.h; sourceTree = "<group>"; };
+		14DE5637185589CB005930AD /* WeaponShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeaponShop.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +85,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				148F5A7618554D0A002B7D47 /* Foundation.framework in Frameworks */,
 				148F5A7818554D0A002B7D47 /* CoreGraphics.framework in Frameworks */,
 				148F5A7A18554D0A002B7D47 /* UIKit.framework in Frameworks */,
-				148F5A7618554D0A002B7D47 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,13 +137,16 @@
 		148F5A7B18554D0A002B7D47 /* SurviveDetroit2 */ = {
 			isa = PBXGroup;
 			children = (
-				148F5A8418554D0B002B7D47 /* ShopsAppDelegate.h */,
-				148F5A8518554D0B002B7D47 /* ShopsAppDelegate.m */,
-				148F5A8718554D0B002B7D47 /* Main.storyboard */,
 				148F5A8A18554D0B002B7D47 /* ShopsViewController.h */,
 				148F5A8B18554D0B002B7D47 /* ShopsViewController.m */,
+				148F5A8718554D0B002B7D47 /* Main.storyboard */,
+				142D9B2C1857032000B66CB7 /* SysAlerts.h */,
+				142D9B2D1857032000B66CB7 /* SysAlerts.m */,
 				148F5A8D18554D0B002B7D47 /* Images.xcassets */,
+				14DE5639185589D6005930AD /* Shops */,
 				148F5A7C18554D0B002B7D47 /* Supporting Files */,
+				14DE563B185589E9005930AD /* NPCs */,
+				14DE563A185589E2005930AD /* Items */,
 			);
 			path = SurviveDetroit2;
 			sourceTree = "<group>";
@@ -126,6 +154,10 @@
 		148F5A7C18554D0B002B7D47 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				147E82471858099000F86647 /* 490px-Magnifying_glass_icon.svg.png */,
+				145328D118557C270021F842 /* woodBkgd.jpg */,
+				148F5A8418554D0B002B7D47 /* ShopsAppDelegate.h */,
+				148F5A8518554D0B002B7D47 /* ShopsAppDelegate.m */,
 				148F5A7D18554D0B002B7D47 /* SurviveDetroit2-Info.plist */,
 				148F5A7E18554D0B002B7D47 /* InfoPlist.strings */,
 				148F5A8118554D0B002B7D47 /* main.m */,
@@ -150,6 +182,39 @@
 				148F5A9D18554D0B002B7D47 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14DE5639185589D6005930AD /* Shops */ = {
+			isa = PBXGroup;
+			children = (
+				14DE5636185589CB005930AD /* WeaponShop.h */,
+				14DE5637185589CB005930AD /* WeaponShop.m */,
+			);
+			name = Shops;
+			sourceTree = "<group>";
+		};
+		14DE563A185589E2005930AD /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				1488A578185C11630007519D /* Container.h */,
+				1488A579185C11630007519D /* Container.m */,
+				14DE56301855888E005930AD /* Item.h */,
+				14DE56311855888E005930AD /* Item.m */,
+				14DE56331855895D005930AD /* Sword.h */,
+				14DE56341855895D005930AD /* Sword.m */,
+			);
+			name = Items;
+			sourceTree = "<group>";
+		};
+		14DE563B185589E9005930AD /* NPCs */ = {
+			isa = PBXGroup;
+			children = (
+				145328DD185582FE0021F842 /* Creature.h */,
+				145328DE185582FE0021F842 /* Creature.m */,
+				1409CB461855853800482173 /* Player.h */,
+				1409CB471855853800482173 /* Player.m */,
+			);
+			name = NPCs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +294,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				147E82481858099000F86647 /* 490px-Magnifying_glass_icon.svg.png in Resources */,
+				145328D218557C270021F842 /* woodBkgd.jpg in Resources */,
 				148F5A8E18554D0B002B7D47 /* Images.xcassets in Resources */,
 				148F5A8018554D0B002B7D47 /* InfoPlist.strings in Resources */,
 				148F5A8918554D0B002B7D47 /* Main.storyboard in Resources */,
@@ -250,9 +317,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14DE56321855888E005930AD /* Item.m in Sources */,
+				145328DF185582FE0021F842 /* Creature.m in Sources */,
+				142D9B2E1857032000B66CB7 /* SysAlerts.m in Sources */,
 				148F5A8618554D0B002B7D47 /* ShopsAppDelegate.m in Sources */,
+				14DE5638185589CB005930AD /* WeaponShop.m in Sources */,
+				1488A57A185C11630007519D /* Container.m in Sources */,
 				148F5A8C18554D0B002B7D47 /* ShopsViewController.m in Sources */,
+				14DE56351855895D005930AD /* Sword.m in Sources */,
 				148F5A8218554D0B002B7D47 /* main.m in Sources */,
+				1409CB481855853800482173 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SurviveDetroit2/SurviveDetroit2-Prefix.pch";
 				INFOPLIST_FILE = "SurviveDetroit2/SurviveDetroit2-Info.plist";
@@ -392,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SurviveDetroit2/SurviveDetroit2-Prefix.pch";
 				INFOPLIST_FILE = "SurviveDetroit2/SurviveDetroit2-Info.plist";
@@ -461,6 +537,7 @@
 				148F5AA618554D0B002B7D47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		148F5AA718554D0B002B7D47 /* Build configuration list for PBXNativeTarget "SurviveDetroit2Tests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +546,7 @@
 				148F5AA918554D0B002B7D47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
